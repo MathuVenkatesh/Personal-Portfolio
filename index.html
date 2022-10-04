@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/26039074b6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section">
+      <div class="welcome-div">
+        <h1>Hey I am Mathu</h1>
+        <p>a web developer</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1>These are some of my projects</h1>
+      <div class="projects-div-container">
+        <div class="projects-div">
+          <a
+            class="project-title"
+            href="https://mathuvenkatesh.github.io/tribute/"
+            target="_blank"
+            ><img
+              src="/images/Tribute-pg.png"
+              alt="project image-tribute page"
+              class="project-image"
+            />
+            <p>Tribute Page</p></a
+          >
+        </div>
+
+        <div class="projects-div">
+          <a
+            class="project-title"
+            href="https://mathuvenkatesh.github.io/JS-Documentation/"
+            target="_blank"
+            ><img
+              src="/images/technical-documentation.png"
+              alt="project image-technical documentation"
+              class="project-image"
+            />
+            <p>Technical Documentation</p></a
+          >
+        </div>
+
+        <div class="projects-div">
+          <a
+            class="project-title"
+            href="https://mathuvenkatesh.github.io/Trombones-Project/"
+            target="_blank"
+            ><img
+              src="/images/Trombones.png"
+              alt="Trombones Project"
+              class="project-image"
+            />
+            <p>Trombones Page</p></a
+          >
+        </div>
+
+        <div class="projects-div">
+          <a
+            class="project-title"
+            href="https://mathuvenkatesh.github.io/personal-profile/"
+            target="_blank"
+            ><img
+              src="/images/Profile website.png"
+              alt="personal profile"
+              class="project-image"
+            />
+            <p>Personal Profile Page</p></a
+          >
+        </div>
+
+        <div class="projects-div">
+          <a
+            class="project-title"
+            href="https://mathuvenkatesh.github.io/Travel-Diary/"
+            target="_blank"
+            ><img
+              src="/images/Travel-Diary.png"
+              alt="travel diary"
+              class="project-image"
+            />
+            <p>Travel Diary</p></a
+          >
+        </div>
+
+        <div class="projects-div">
+          <a
+            class="project-title"
+            href="https://mathuvenkatesh.github.io/AcmeWebSolutions/"
+            target="_blank"
+          >
+            <img
+              src="/images/websolutions.png"
+              alt="Acme WebSolutions project"
+              class="project-image"
+            />
+            <p>WebSolutions project</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="social-icon-div">
+        <h1>Let's work together...</h1>
+        <p>How do you take your coffee?</p>
+        <a
+          class="link-so"
+          href="https://www.freecodecamp.org/MathuVenkat"
+          target="_blank"
+          ><i id="profile-link" class="fa-brands fa-facebook-square fa-2x">
+            Facebook</i
+          ></a
+        >
+
+        <a
+          class="link-so"
+          href="https://github.com/MathuVenkatesh"
+          target="_blank"
+          ><i id="profile-link" class="fa-brands fa-github fa-2x"> GitHub</i></a
+        >
+        <a
+          class="link-so"
+          href="https://www.freecodecamp.org/MathuVenkat"
+          target="_blank"
+          ><i id="profile-link" class="fa-brands fa-twitter fa-2x">
+            Twitter</i
+          ></a
+        >
+        <a
+          class="link-so"
+          href="https://github.com/MathuVenkatesh"
+          target="_blank"
+          ><i id="profile-link" class="fa-brands fa-linkedin fa-2x">
+            LinkedIn</i
+          ></a
+        >
+      </div>
+    </section>
+    <footer>
+      <p class="p p1">
+        Note: This is an original portfolio. Contact details given are not
+        real...
+      </p>
+      <p class="p p2">
+        Created by
+        <a href="https://github.com/MathuVenkatesh" target="_blank"
+          >MathuVenkat</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
+
+<!-- User Stories:
+
+👍🏻Your portfolio should have a welcome section with an id of welcome-section
+👍🏻The welcome section should have an h1 element that contains text
+👍🏻Your portfolio should have a projects section with an id of projects
+👍🏻 The projects section should contain at least one element with a class of project-tile to hold a project
+👍🏻 The projects section should contain at least one link to a project
+👍🏻 Your portfolio should have a navbar with an id of navbar
+👍🏻 The navbar should contain at least one link that you can click on to navigate to different sections of the page
+Your portfolio should have a link with an id of profile-link, which opens your GitHub or freeCodeCamp profile in a new tab
+Your portfolio should have at least one media query
+The height of the welcome section should be equal to the height of the viewport
+The navbar should always be at the top of the viewport 
+
+👍🏻 Your portfolio should have a "Welcome" section with an id of welcome-section.
+👍🏻 :Your #welcome-section element should contain an h1 element.
+👍🏻 :You should not have any empty h1 elements within #welcome-section element.
+👍🏻 You should have a "Projects" section with an id of projects.
+👍🏻:Your portfolio should contain at least one element with a class of project-tile.
+:Your #projects element should contain at least one a element.
+:Your portfolio should have a navbar with an id of navbar.
+:Your #navbar element should contain at least one a element whose href attribute starts with #.
+:Your portfolio should have an a element with an id of profile-link.
+:Your #profile-link element should have a target attribute of _blank.
+:Your portfolio should use at least one media query.
+:Your #navbar element should always be at the top of the viewport.
+-->
